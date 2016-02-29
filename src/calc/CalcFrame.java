@@ -292,7 +292,7 @@ public class CalcFrame extends JFrame implements ActionListener, KeyListener{
 					result = this.processLastOperator();
 					this.displayResult(result);
 				}
-				catch (DivideByZeroException e) {
+				catch (Exception e) {
 					this.displayError("Cannot divide by zero.");
 				}
 				this.lastOp = "0";
