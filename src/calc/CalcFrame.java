@@ -36,7 +36,7 @@ public class CalcFrame extends JFrame implements ActionListener, KeyListener{
 
 		JPanel 			panelMain 	= new JPanel();
 		int				dispMode	= INPUT_MODE;
-		boolean			clearOnNextDigit, percent;
+		boolean			clearOnNextDigit,  percent;
 		BigDecimal		lastNumber;
 		String			lastOp		= "";
 
